@@ -1,0 +1,26 @@
+{
+    "bbt": {
+        "lambda": {
+            "queryStringParameters": {
+                "type": "name",
+                "name": "oscillation"
+            }
+        },
+        "apigateway": {
+            "path": "/",
+            "method": {
+                "value": "GET",
+                "items": [
+                    "GET",
+                    "POST",
+                    "PUT",
+                    "DELETE",
+                    "HEAD",
+                    "OPTIONS",
+                    "PATCH"
+                ]
+            },
+            "queryString": "name=oscillation"
+        }
+    }
+}
