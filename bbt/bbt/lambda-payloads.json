@@ -1,11 +1,6 @@
 {
     "bbt": {
-        "lambda": {
-            "queryStringParameters": {
-                "type": "name",
-                "name": "oscillation"
-            }
-        },
+        "lambda": {},
         "apigateway": {
             "path": "/",
             "method": {
@@ -20,7 +15,7 @@
                     "PATCH"
                 ]
             },
-            "queryString": "name=oscillation"
+            "queryString": "type=count&field=name&string=conundrum"
         }
     }
 }
