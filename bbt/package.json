@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "big-bang-theory": "github:rogerjaffe/big-bang-theory",
-    "moment": "^2.24.0"
+    "moment": "^2.29.2"
   }
 }
